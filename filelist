@@ -1,0 +1,29 @@
+# -*-shell-script-*-
+
+#############
+# Targets   #
+#############
+
+# HPC Stuff
+hzhpc=common
+
+##########
+# Groups #
+##########
+
+# Common
+#########
+
+# Lmod enablers
+.bashlmod
+.zshlmod
+
+# Modules
+Modulefiles/newBoost
+Modulefiles/setHPC
+# Autotools
+Modulefiles/autotools/autoconf/2.64.lua
+Modulefiles/autotools/automake/1.11.1.lua
+Modulefiles/autotools/autotools.lua
+Modulefiles/autotools/libtool/2.4.lua
+Modulefiles/autotools/m4/1.4.14.lua
