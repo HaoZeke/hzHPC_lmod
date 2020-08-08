@@ -23,5 +23,6 @@ Modulefiles/autotools/automake/1.11.1.lua
 Modulefiles/autotools/autotools.lua
 Modulefiles/autotools/libtool/2.4.lua
 Modulefiles/autotools/m4/1.4.14.lua
-# Perl
+# Singles
 Modulefiles/perl/5.28.0.lua
+Modulefiles/git/2.9.5.lua
