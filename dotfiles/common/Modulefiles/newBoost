@@ -42,3 +42,7 @@ setenv          BOOST_LIB        /users/home/rog32/.hpc/boost/lib
 setenv          BOOST_INC        /users/home/rog32/.hpc/boost/include
 
 family "boost"
+
+# Local Variables:
+# mode: tcl
+# End:
