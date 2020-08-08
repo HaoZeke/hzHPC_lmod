@@ -21,6 +21,6 @@
 local home    = os.getenv("HOME")
 local version = myModuleVersion()
 local pkgName = myModuleName()
-local pkghome     = pathJoin(home,".hpc",pkgName,version)
+local pkghome     = pathJoin(home,".hpc","autotools",pkgName,version)
 prepend_path("PATH", pathJoin(pkg,"bin"))
 prepend_path("MANPATH", pathJoin(pkg,"share"))
