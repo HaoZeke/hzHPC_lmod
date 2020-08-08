@@ -29,6 +29,7 @@ whatis("https://invisible-island.net/ncurses/")
 
 -- Dependencies
 always_load("autotools/autotools")
+always_load("pkg-config/0.29.2")
 
 -- Variables
 local home    = os.getenv("HOME")
