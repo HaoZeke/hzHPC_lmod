@@ -29,7 +29,7 @@ whatis("https://github.com/ggreer/the_silver_searcher")
 
 -- Dependencies
 always_load("autotools/autotools")
-always_load("pcre/2-10.35")
+always_load("pcre/8.44")
 
 -- Variables
 local home    = os.getenv("HOME")
