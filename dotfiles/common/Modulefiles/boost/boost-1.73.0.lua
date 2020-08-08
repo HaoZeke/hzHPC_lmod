@@ -22,8 +22,8 @@ help([[
 User module to load a newer boost built against gcc-9.2.0
 ]])
 
-whatis("Name: BOOST")
-whatis("Version: " .. fullVersion)
+whatis("Name: " .. myModuleName())
+whatis("Version: " .. myModuleVersion())
 whatis("Category: runtime library")
 whatis("Description: Boost free peer-reviewed portable C++ source libraries")
 whatis("http://www.boost.org")
