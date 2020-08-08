@@ -26,3 +26,4 @@ Modulefiles/autotools/m4/1.4.14.lua
 # Singles
 Modulefiles/perl/5.28.0.lua
 Modulefiles/git/2.9.5.lua
+Modulefiles/boost/boost-1.73.0.lua
