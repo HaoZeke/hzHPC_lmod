@@ -1,0 +1,10 @@
+* About
+- This is a collection of [[https://lmod.readthedocs.io/en/latest/index.html][Lmod files]] for HPC clusters
+- More details about this are on [[https://rgoswami.me/posts/nix-hpc-tramp][my website here]]
+- These are managed by ~dotgit~
+
+** Background
+These split off from [[https://github.com/HaoZeke/Dotfiles][my Dotfiles]] for the same reason my [[https://dotdoom.rgoswami.me][famous Emacs configuration split]], that is they take up an exorbitant amount of commits.
+
+* License
+Apache 2.0
