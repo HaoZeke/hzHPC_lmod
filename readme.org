@@ -1,6 +1,7 @@
 * About
 - This is a collection of [[https://lmod.readthedocs.io/en/latest/index.html][Lmod files]] for HPC clusters
-- More details about this are on [[https://rgoswami.me/posts/nix-hpc-tramp][my website here]]
+- More details about this are on [[https://rgoswami.me/posts/hpc-dots-lmod][my website here]]
+  - Importantly, the installation instructions for the modules are presented there
 - These are managed by [[https://github.com/kobus-v-schoor/dotgit][dotgit]]
 
 ** Background
