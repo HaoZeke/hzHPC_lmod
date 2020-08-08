@@ -34,3 +34,6 @@ Modulefiles/xz/5.2.5.lua
 Modulefiles/openssl/1.1.1d.lua
 Modulefiles/make/4.3.lua
 Modulefiles/brotli/1.0.1.lua
+Modulefiles/ncurses/6.2.lua
+Modulefiles/texinfo/6.7.lua
+Modulefiles/gperf/3.1.lua
