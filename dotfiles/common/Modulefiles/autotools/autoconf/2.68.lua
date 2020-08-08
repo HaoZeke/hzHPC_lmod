@@ -21,5 +21,7 @@
 local home    = os.getenv("HOME")
 local version = myModuleVersion()
 local pkgName = myModuleName()
-local pkg     = pathJoin(home,".hpc",pkgName,version,"bin")
-prepend_path("PATH", pkg)
+local pkg     = pathJoin(home,".hpc",pkgName,version)
+
+prepend_path("PATH",pathJoin(pkg,"bin"))
+prepend_path("MANPATH",pathJoin(pkg,"share"))
