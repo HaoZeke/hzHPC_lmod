@@ -29,4 +29,4 @@ end
 always_load("gcc/9.2.0")
 
 -- 2 --
-load("autotools/m4/1.4.18","autotools/autoconf/2.64","autotools/automake/1.11.1","autotools/libtool/2.4")
+load("autotools/m4/1.4.18","autotools/autoconf/2.68","autotools/automake/1.16.2","autotools/libtool/2.4.6")

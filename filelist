@@ -18,11 +18,11 @@ hzhpc=common
 Modulefiles/newBoost
 Modulefiles/setHPC
 # Autotools
-Modulefiles/autotools/autoconf/2.64.lua
-Modulefiles/autotools/automake/1.11.1.lua
-Modulefiles/autotools/autotools.lua
-Modulefiles/autotools/libtool/2.4.lua
+Modulefiles/autotools/autoconf/2.68.lua
+Modulefiles/autotools/automake/1.16.2.lua
+Modulefiles/autotools/libtool/2.4.6.lua
 Modulefiles/autotools/m4/1.4.18.lua
+Modulefiles/autotools/autotools.lua
 # Singles
 Modulefiles/perl/5.28.0.lua
 Modulefiles/git/2.9.5.lua
