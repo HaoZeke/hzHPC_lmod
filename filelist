@@ -14,10 +14,6 @@ hzhpc=common
 # Common
 #########
 
-# Lmod enablers
-.bashlmod
-.zshlmod
-
 # Modules
 Modulefiles/newBoost
 Modulefiles/setHPC

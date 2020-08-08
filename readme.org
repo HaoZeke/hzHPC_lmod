@@ -22,5 +22,6 @@ I actually strongly suggest using a target from [[https://github.com/HaoZeke/Dot
 #+BEGIN_SRC
 ~/.local/bin/dotgit restore hzhpc
 #+END_SRC
+Note that because of the suggested separation, I have not opted to setup a shell or even ensure that there are scripts here to help keep ~module~ in your path. Those are in [[https://github.com/HaoZeke/Dotfiles][my Dotfiles]].
 * License
 Apache 2.0
