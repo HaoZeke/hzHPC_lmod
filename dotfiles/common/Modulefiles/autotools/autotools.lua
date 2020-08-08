@@ -25,5 +25,8 @@ The autotools modulefile defines m4, autoconf, automake and libtool
 if (os.getenv("USER") ~= "root") then
 append_path("PATH", ".")
 end
+-- Dependencies
+always_load("gcc/9.2.0")
+
 -- 2 --
 load("autotools/m4/1.4.14","autotools/autoconf/2.64","autotools/automake/1.11.1","autotools/libtool/2.4")

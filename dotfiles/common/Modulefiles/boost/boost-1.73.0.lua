@@ -32,7 +32,6 @@ family("boost")
 
 -- Dependencies
 always_load("autotools/autotools")
-always_load("gcc/9.2.0")
 
 -- Variables
 local home    = os.getenv("HOME")
