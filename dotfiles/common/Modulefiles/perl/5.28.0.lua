@@ -30,10 +30,11 @@ local perl5home = pbrewroot.."/perls/perl-5.28.0/"
 setenv("PERLBREW_HOME",pbrewhome)
 setenv("PERLBREW_MANPATH",perl5home,"man")
 setenv("PERLBREW_PERL","perl-5.28.0")
-setenv("PERLBREW_ROOT","/users/home/rog32/perl5/perlbrew")
+setenv("PERLBREW_ROOT",pbrewroot)
 setenv("PERLBREW_SHELLRC_VERSION","0.88")
 setenv("PERLBREW_VERSION","0.88")
 setenv("PERLBREW_PATH",pathJoin(pbrewroot,"bin"))
+
 -- paths
 prepend_path("MANPATH",perl5home.."man")
 prepend_path("PATH",pathJoin(perl5home,"bin"))
