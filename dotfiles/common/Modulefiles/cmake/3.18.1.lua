@@ -35,14 +35,8 @@ always_load("autotools/autotools")
 local home    = os.getenv("HOME")
 local version = myModuleVersion()
 local pkgName = myModuleName()
-local chome   = pathJoin(home,".hpc",pkgName,version)
-
--- environment
-setenv("BOOST_DIR",chome)
-setenv("BOOST_ROOT",chome)
-setenv("BOOST_LIB",pathJoin(chome,"lib"))
-setenv("BOOST_INC",pathJoin(chome,"include"))
+local cmkhome   = pathJoin(home,".hpc",pkgName,version)
 
 -- Paths
-prepend_path("INCLUDE",pathJoin(chome,"include"))
-prepend_path("LD_LIBRARY_PATH",pathJoin(chome,"lib"))
+prepend_path("PATH",pathJoin(cmkhome,"bin"))
+prepend_path("MANPATH",pathJoin(cmkhome,"share"))
