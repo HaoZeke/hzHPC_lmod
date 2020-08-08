@@ -46,3 +46,4 @@ Modulefiles/the_silver_searcher/2.2.0.lua
 Modulefiles/bison/3.7.1.lua
 Modulefiles/jq/1.6.lua
 Modulefiles/nvim/0.5.0.lua
+Modulefiles/tmux/3.1b.lua
