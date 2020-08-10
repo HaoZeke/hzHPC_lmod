@@ -54,7 +54,7 @@ prepend_path("PATH",pathJoin(nixh,"bin"))
 prepend_path("PKG_CONFIG_PATH",pathJoin(nixh,"lib","pkgconfig"))
 
 -- Automated
-setenv("NIX_PROFILES","/users/home/rog32/.nix/var/nix/profiles/default /users/home/rog32/.nix-profile")
+setenv("NIX_PROFILES", pathJoin(home,".nix") .. "/var/nix/profiles/default" .. nixp )
 setenv("NIX_SSL_CERT_FILE","/etc/ssl/certs/ca-bundle.crt")
-prepend_path("PATH",pathJoin(nixp,"bin"))
-prepend_path("MANPATH",pathJoin(nixp,"share","man"))
+append_path("PATH",pathJoin(nixp,"bin"))
+append_path("MANPATH",pathJoin(nixp,"share","man"))
