@@ -50,3 +50,4 @@ Modulefiles/tmux/3.1b.lua
 Modulefiles/bzip2/1.0.8.lua
 Modulefiles/sqlite/3.32.3.lua
 Modulefiles/editline/1.17.1.lua
+Modulefiles/nix/nix-boot.lua
