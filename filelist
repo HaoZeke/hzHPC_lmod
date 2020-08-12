@@ -51,3 +51,4 @@ Modulefiles/bzip2/1.0.8.lua
 Modulefiles/sqlite/3.32.3.lua
 Modulefiles/editline/1.17.1.lua
 Modulefiles/nix/nix-boot.lua
+Modulefiles/julia/1.5.0.lua
