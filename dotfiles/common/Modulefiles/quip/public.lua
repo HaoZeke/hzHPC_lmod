@@ -39,7 +39,7 @@ local pkgName = myModuleName()
 local quiph   = pathJoin(home,".hpc",pkgName,version)
 
 -- environment
-setenv("QUIP_ARCH","linux_x86_64_ifort_icc_mpi")
+setenv("QUIP_ARCH","linux_x86_64_gfortran_openmpi")
 setenv("QUIP_INSTALLDIR",quiph)
 
 -- Paths
