@@ -29,6 +29,8 @@ whatis("https://julialang.org/")
 
 -- Dependencies
 always_load("intel/mkl/2017.2")
+always_load("intel/compiler/2017.2")
+always_load("openmpi/intel/2.1.1")
 
 -- Variables
 local home    = os.getenv("HOME")
