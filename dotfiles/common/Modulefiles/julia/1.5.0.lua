@@ -19,13 +19,16 @@
 -- limitations under the License.
 
 help([[
-User module to load julia
+User module to load julia (with MKL)
 ]])
 
 whatis("Name: " .. myModuleName())
 whatis("Version: " .. myModuleVersion())
 whatis("Category: lang")
 whatis("https://julialang.org/")
+
+-- Dependencies
+always_load("intel/mkl/2017.2")
 
 -- Variables
 local home    = os.getenv("HOME")
