@@ -44,17 +44,29 @@ local nixh   = pathJoin(home,"nix-boot")
 local nixp   = pathJoin(home,".nix-profile")
 
 -- Environment
-pushenv("NIX_PATH","nixpkgs=" .. pathJoin(home,"Git","Github","nixpkgs"))
+setenv("NIX_PROFILES", pathJoin(home,".nix") .. "/var/nix/profiles/default" .. nixp )
+setenv("NIX_IGNORE_SYMLINK_STORE",1)
+setenv("NIX_STORE_DIR",pathJoin(nixp,"store"))
+setenv("NIX_STATE_DIR",pathJoin(nixp,"state"))
+setenv("NIX_LOG_DIR",pathJoin(nixp,"var","log","nix"))
+setenv("NIX_CONF_DIR",pathJoin(nixp,"etc","nix"))
 
--- Paths
+-- Paths (boot)
 prepend_path("MANPATH",pathJoin(nixh,"man"))
 prepend_path("LD_LIBRARY_PATH",pathJoin(nixh,"lib"))
 prepend_path("INCLUDE",pathJoin(nixh,"include"))
 prepend_path("PATH",pathJoin(nixh,"bin"))
 prepend_path("PKG_CONFIG_PATH",pathJoin(nixh,"lib","pkgconfig"))
 
+-- Paths (native)
+prepend_path("MANPATH",pathJoin(nixp,"man"))
+prepend_path("LD_LIBRARY_PATH",pathJoin(nixp,"lib"))
+prepend_path("INCLUDE",pathJoin(nixp,"include"))
+prepend_path("PATH",pathJoin(nixp,"bin"))
+prepend_path("PKG_CONFIG_PATH",pathJoin(nixp,"lib","pkgconfig"))
+
 -- Automated
 setenv("NIX_PROFILES", pathJoin(home,".nix") .. "/var/nix/profiles/default" .. nixp )
 setenv("NIX_SSL_CERT_FILE","/etc/ssl/certs/ca-bundle.crt")
-append_path("PATH",pathJoin(nixp,"bin"))
-append_path("MANPATH",pathJoin(nixp,"share","man"))
+-- append_path("PATH",pathJoin(nixp,"bin"))
+-- append_path("MANPATH",pathJoin(nixp,"share","man"))
