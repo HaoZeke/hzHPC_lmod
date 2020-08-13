@@ -55,3 +55,4 @@ Modulefiles/readline/8.1-alpha.lua
 Modulefiles/termcap/1.3.1.lua
 Modulefiles/julia/1.5.0.lua
 Modulefiles/quip/public.lua
+Modulefiles/libxc/5.0.0.lua
