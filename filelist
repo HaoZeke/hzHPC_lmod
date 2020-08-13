@@ -50,7 +50,8 @@ Modulefiles/tmux/3.1b.lua
 Modulefiles/bzip2/1.0.8.lua
 Modulefiles/sqlite/3.32.3.lua
 Modulefiles/editline/1.17.1.lua
-Modulefiles/nix/nix-boot.lua
+Modulefiles/nix/bootstrapped.lua
+Modulefiles/nix/user.lua
 Modulefiles/readline/8.1-alpha.lua
 Modulefiles/termcap/1.3.1.lua
 Modulefiles/julia/1.5.0.lua
