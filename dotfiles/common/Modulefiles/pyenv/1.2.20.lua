@@ -29,6 +29,10 @@ whatis("https://github.com/pyenv/pyenv/")
 
 -- Dependencies
 always_load("autotools/autotools")
+always_load("openssl/1.1.1d")
+always_load("bzip2/1.0.8")
+always_load("readline/8.1-alpha")
+always_load("sqlite/3.32.3")
 
 -- Variables
 local home    = os.getenv("HOME")
