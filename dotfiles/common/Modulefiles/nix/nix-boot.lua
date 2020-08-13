@@ -52,9 +52,10 @@ prepend_path("LD_LIBRARY_PATH",pathJoin(nixh,"lib"))
 prepend_path("INCLUDE",pathJoin(nixh,"include"))
 prepend_path("PATH",pathJoin(nixh,"bin"))
 prepend_path("PKG_CONFIG_PATH",pathJoin(nixh,"lib","pkgconfig"))
+prepend_path("PATH",pathJoin(nixp,"bin"))
+prepend_path("MANPATH",pathJoin(nixp,"share","man"))
+append_path("NIX_PATH",pathJoin(home,".nix-defexpr","channels"))
 
 -- Automated
 setenv("NIX_PROFILES", pathJoin(home,".nix") .. "/var/nix/profiles/default" .. nixp )
 setenv("NIX_SSL_CERT_FILE","/etc/ssl/certs/ca-bundle.crt")
-append_path("PATH",pathJoin(nixp,"bin"))
-append_path("MANPATH",pathJoin(nixp,"share","man"))
