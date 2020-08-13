@@ -28,9 +28,7 @@ whatis("Category: lib")
 whatis("https://github.com/libAtoms/QUIP/tree/public")
 
 -- Dependencies
-always_load("intel/mkl/2017.2")
-always_load("intel/compiler/2017.2")
-always_load("openmpi/intel/2.1.1")
+always_load("autotools/autotools")
 
 -- Variables
 local home    = os.getenv("HOME")
@@ -39,7 +37,7 @@ local pkgName = myModuleName()
 local quiph   = pathJoin(home,".hpc",pkgName,version)
 
 -- environment
-setenv("QUIP_ARCH","linux_x86_64_gfortran_openmpi")
+setenv("QUIP_ARCH","linux_x86_64_gfortran")
 setenv("QUIP_INSTALLDIR",quiph)
 
 -- Paths
