@@ -5,6 +5,10 @@
         doCheck = false;
         doInstallCheck = false;
       });
+      bash-completion = bash-completion.overrideAttrs (oldAttrs: {
+        doCheck = false;
+        doInstallCheck = false;
+      });
       nix = nix.overrideAttrs (oldAttrs: {
         doCheck = false;
         doInstallCheck = false;
