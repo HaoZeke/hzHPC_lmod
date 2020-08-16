@@ -48,12 +48,3 @@
       });
     };
 }
-
-# pkgs: {
-#   packageOverrides = self: {
-#     nix = self.nix.override {
-#       storeDir = "/users/home/rog32/.nix/store";
-#       stateDir = "/users/home/rog32/.nix/var";
-#     };
-#   };
-# }
