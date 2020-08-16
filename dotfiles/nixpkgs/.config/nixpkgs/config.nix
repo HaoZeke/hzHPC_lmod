@@ -13,7 +13,8 @@
         doCheck = false;
         doInstallCheck = false;
       });
-      scipy = scipy.overridePythonAttrs (oldAttrs: { doCheck = false; });
+      scipy =
+        python38.scipy.overridePythonAttrs (oldAttrs: { doCheck = false; });
       autogen = autogen.overrideAttrs (oldAttrs: {
         postInstall = ''
           mkdir -p $dev/bin
