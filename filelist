@@ -5,7 +5,7 @@
 #############
 
 # HPC Stuff
-hzhpc=common
+hzhpc=common,nixpkgs
 
 ##########
 # Groups #
@@ -59,3 +59,8 @@ Modulefiles/quip/public.lua
 Modulefiles/libxc/5.0.0.lua
 Modulefiles/pyenv/1.2.20.lua
 Modulefiles/miniconda/3.8.lua
+
+# Nixpkgs
+##########
+.config/nixpkgs/config.nix:nixpkgs
+.config/nixpkgs/overlays/haskell-no-check.nix:nixpkgs
