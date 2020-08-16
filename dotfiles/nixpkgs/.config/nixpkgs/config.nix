@@ -1,6 +1,10 @@
 {
   packageOverrides = pkgs:
     with pkgs; {
+      libuv = libuv.overrideAttrs (oldAttrs: {
+        doCheck = false;
+        doInstallCheck = false;
+      });
       nix = nix.overrideAttrs (oldAttrs: {
         doCheck = false;
         doInstallCheck = false;
