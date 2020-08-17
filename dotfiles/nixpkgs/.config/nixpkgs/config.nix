@@ -13,6 +13,10 @@
         doCheck = false;
         doInstallCheck = false;
       });
+      zsh = zsh.overrideAttrs (oldAttrs: {
+        doCheck = false;
+        doInstallCheck = false;
+      });
       autogen = autogen.overrideAttrs (oldAttrs: {
         postInstall = ''
           mkdir -p $dev/bin
