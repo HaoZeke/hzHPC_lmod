@@ -41,6 +41,7 @@ setenv("NIX_STORE_DIR",pathJoin(nixs,"store"))
 setenv("NIX_STATE_DIR",pathJoin(nixs,"state"))
 setenv("NIX_LOG_DIR",pathJoin(nixs,"var","log","nix"))
 setenv("NIX_CONF_DIR",pathJoin(nixs,"etc","nix"))
+setenv("NIX_PATH", "nixpkgs=" .. nixs .. "/state/profiles/per-user/" .. os.getenv("USER") .. "/channels/nixpkgs")
 
 -- Paths (native)
 prepend_path("MANPATH",pathJoin(nixp,"man"))
