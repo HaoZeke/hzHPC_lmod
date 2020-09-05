@@ -51,7 +51,7 @@ setenv("NIX_STORE_DIR",pathJoin(nixs,"store"))
 setenv("NIX_STATE_DIR",pathJoin(nixs,"state"))
 setenv("NIX_LOG_DIR",pathJoin(nixs,"var","log","nix"))
 setenv("NIX_CONF_DIR",pathJoin(nixs,"etc","nix"))
-setenv("NIX_PATH","nixpkgs=" .. home .. "Git/Github/nixpkgs")
+setenv("NIX_PATH","nixpkgs=" .. home .. "/Git/Github/nixpkgs")
 
 -- Paths (boot)
 prepend_path("MANPATH",pathJoin(nixh,"man"))
