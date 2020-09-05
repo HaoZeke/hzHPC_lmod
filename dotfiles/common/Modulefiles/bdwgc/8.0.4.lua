@@ -29,7 +29,7 @@ whatis("https://github.com/ivmai/bdwgc")
 
 -- Dependencies
 always_load("autotools/autotools")
-always_load("libseccomp/2.5.0")
+always_load("libseccomp/2.4.4")
 
 -- Variables
 local home    = os.getenv("HOME")

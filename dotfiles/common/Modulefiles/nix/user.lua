@@ -31,7 +31,7 @@ whatis("")
 always_load("autotools/autotools")
 always_load("pkg-config/0.29.2")
 always_load("bzip2/1.0.8")
-always_load("libseccomp/2.5.0")
+always_load("libseccomp/2.4.4")
 always_load("editline/1.17.1")
 always_load("boost/boost-1.73.0")
 
