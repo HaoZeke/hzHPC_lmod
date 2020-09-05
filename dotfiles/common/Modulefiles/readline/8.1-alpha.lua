@@ -28,6 +28,7 @@ whatis("Category: lib")
 
 -- Dependencies
 always_load("autotools/autotools")
+always_load("termcap/1.3.1")
 
 -- Variables
 local home    = os.getenv("HOME")
