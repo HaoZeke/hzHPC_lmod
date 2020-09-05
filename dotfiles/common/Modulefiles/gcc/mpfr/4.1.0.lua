@@ -24,7 +24,7 @@ local pkgName = myModuleName()
 local pkghome     = pathJoin(home,".hpc",pkgName,version)
 
 -- Dependencies
-always_load("gmp/6.2.0")
+always_load("gcc/gmp/6.2.0")
 
 -- Paths
 prepend_path("MANPATH",pathJoin(pkghome,"share"))
