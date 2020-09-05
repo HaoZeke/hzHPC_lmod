@@ -44,6 +44,7 @@ Modulefiles/ncurses/6.2.lua
 Modulefiles/texinfo/6.7.lua
 Modulefiles/gperf/3.1.lua
 Modulefiles/libseccomp/2.5.0.lua
+Modulefiles/libseccomp/2.4.4.lua
 Modulefiles/bdwgc/8.0.4.lua
 Modulefiles/pcre2/10.35.lua
 Modulefiles/pcre/8.44.lua
