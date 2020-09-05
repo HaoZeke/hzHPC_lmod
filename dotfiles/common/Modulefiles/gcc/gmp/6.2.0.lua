@@ -22,6 +22,9 @@ local home    = os.getenv("HOME")
 local version = myModuleVersion()
 local pkgName = myModuleName()
 local pkghome     = pathJoin(home,".hpc",pkgName,version)
+
+-- Paths
 prepend_path("MANPATH",pathJoin(pkghome,"share"))
 prepend_path("INCLUDE",pathJoin(pkghome,"include"))
 prepend_path("LD_LIBRARY_PATH",pathJoin(pkghome,"lib"))
+prepend_path("PKG_CONFIG_PATH",pathJoin(pkghome,"lib","pkgconfig"))
