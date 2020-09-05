@@ -40,7 +40,7 @@ always_load("boost/boost-1.73.0")
 local home    = os.getenv("HOME")
 local version = myModuleVersion()
 local pkgName = myModuleName()
-local nixh   = pathJoin(home,"nix-boot")
+local nixh   = pathJoin(home,".hpc/nix/nix-boot")
 local nixp   = pathJoin(home,".nix-profile")
 local nixs   = pathJoin(home,".nix")
 
