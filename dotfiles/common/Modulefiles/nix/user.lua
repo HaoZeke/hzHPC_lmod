@@ -43,7 +43,7 @@ local version = myModuleVersion()
 local pkgName = myModuleName()
 local nixh   = pathJoin(home,".hpc/nix/nix-boot")
 local nixp   = pathJoin(home,".nix-profile")
-local nixs   = pathJoin(home,".nix")
+local nixs   = pathJoin(home,".nix-boot")
 
 -- Environment
 setenv("NIX_PROFILES", pathJoin(home,".nix") .. "/var/nix/profiles/default" .. nixp )
