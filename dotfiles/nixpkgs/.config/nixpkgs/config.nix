@@ -40,6 +40,9 @@
         '';
       });
       nix = nix.overrideAttrs (oldAttrs: {
+        storeDir = "$HOME/.nix/store";
+        stateDir = "$HOME/.nix/var";
+        confDif = "$HOME/.nix/etc";
         doCheck = false;
         doInstallCheck = false;
         prePatch = ''
