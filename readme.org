@@ -15,7 +15,7 @@ To spell it out:
 #+BEGIN_SRC bash
 git clone https://github.com/kobus-v-schoor/dotgit.git
 mkdir -p ~/.local/bin
-cp -r dotgit/bin/dotgit* ~/.local/bin
+cp -r dotgit/old/bin/dotgit* ~/.local/bin
 cat dotgit/bin/bash_completion >> ~/.bash_completion
 rm -rf dotgit
 #+END_SRC
