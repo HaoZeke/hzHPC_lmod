@@ -27,7 +27,7 @@ Modulefiles/autotools/autotools.lua
 # GCC
 Modulefiles/gcc/gmp/6.2.0.lua
 Modulefiles/gcc/mpfr/4.1.0.lua
-Modulefiles/gcc/mpc/1.1.0.lua
+Modulefiles/gcc/mpc/1.2.0.lua
 Modulefiles/gcc/9.2.0.lua
 # Singles
 Modulefiles/perl/5.28.0.lua
