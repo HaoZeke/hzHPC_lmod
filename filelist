@@ -38,7 +38,7 @@ Modulefiles/cmake/3.18.1.lua
 Modulefiles/zlib/1.2.11.lua
 Modulefiles/xz/5.2.5.lua
 Modulefiles/openssl/1.1.1d.lua
-Modulefiles/libcurl/7.76.0.lua
+Modulefiles/curl/7.76.0.lua
 Modulefiles/brotli/1.0.1.lua
 Modulefiles/ncurses/6.2.lua
 Modulefiles/texinfo/6.7.lua
