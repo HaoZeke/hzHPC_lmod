@@ -30,6 +30,7 @@ Modulefiles/gcc/mpfr/4.1.0.lua
 Modulefiles/gcc/mpc/1.2.0.lua
 Modulefiles/gcc/9.2.0.lua
 # Singles
+Modulefiles/patch/2.7.2.lua
 Modulefiles/perl/5.28.0.lua
 Modulefiles/git/2.9.5.lua
 Modulefiles/boost/boost-1.73.0.lua
