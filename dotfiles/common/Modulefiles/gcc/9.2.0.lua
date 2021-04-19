@@ -27,7 +27,7 @@ append_path("PATH", ".")
 end
 
 -- 2 --
-load("gcc/gmp/6.2.0","gcc/mpfr/4.1.0","gcc/mpc/1.1.0")
+load("gcc/gmp/6.2.0","gcc/mpfr/4.1.0","gcc/mpc/1.2.0")
 
 -- Standard
 local home    = os.getenv("HOME")
