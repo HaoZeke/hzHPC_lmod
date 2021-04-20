@@ -54,3 +54,4 @@ prepend_path("PKG_CONFIG_PATH",pathJoin(nixp,"lib","pkgconfig"))
 -- Automated
 setenv("NIX_PROFILES", pathJoin(home,".nix") .. "/var/nix/profiles/default" .. nixp )
 pushenv("NIX_SSL_CERT_FILE","/etc/ssl/certs/ca-bundle.crt")
+append_path("MANPATH",pathJoin(nixp,"share","man"))
