@@ -61,6 +61,7 @@ Modulefiles/jq/1.6.lua
 Modulefiles/nvim/0.5.0.lua
 Modulefiles/tmux/3.1b.lua
 Modulefiles/bzip2/1.0.8.lua
+Modulefiles/bzip2/1.0.6.lua
 Modulefiles/sqlite/3.32.3.lua
 Modulefiles/editline/1.17.1.lua
 Modulefiles/nix/bootstrapped.lua
