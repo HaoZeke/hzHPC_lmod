@@ -31,6 +31,7 @@ Modulefiles/gcc/mpfr/4.1.0.lua
 Modulefiles/gcc/mpc/1.2.0.lua
 Modulefiles/gcc/9.2.0.lua
 # Singles
+Modulefiles/oniguruma/6.9.7.1.lua
 Modulefiles/patch/2.7.2.lua
 Modulefiles/help2man/1.48.3.lua
 Modulefiles/perl/5.28.0.lua
