@@ -22,5 +22,9 @@ local home    = os.getenv("HOME")
 local version = myModuleVersion()
 local pkgName = myModuleName()
 local pkghome     = pathJoin(home,".hpc",pkgName,version)
+
+-- Dependencies
+always_load("help2man/1.48.3")
+
 prepend_path("PATH", pathJoin(pkghome,"bin"))
 prepend_path("MANPATH", pathJoin(pkghome,"share"))
