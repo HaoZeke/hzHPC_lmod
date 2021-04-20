@@ -18,15 +18,9 @@
 --
 -- limitations under the License.
 
-help([[
-The autotools modulefile defines m4, autoconf, automake and libtool
-]])
--- 1 --
-if (os.getenv("USER") ~= "root") then
-append_path("PATH", ".")
-end
--- Dependencies
-always_load("gcc/9.2.0")
-
--- 2 --
-load("autotools/m4/1.4.18","autotools/autoconf/2.69","autotools/automake/1.16.2","autotools/libtool/2.4.6", "autotools/gettext/0.20")
+local home    = os.getenv("HOME")
+local version = myModuleVersion()
+local pkgName = myModuleName()
+local pkghome     = pathJoin(home,".hpc",pkgName,version)
+prepend_path("PATH", pathJoin(pkghome,"bin"))
+prepend_path("MANPATH", pathJoin(pkghome,"share"))
